@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+  header nav {
+    position: static;
+    box-shadow: none;
+    height: auto;
+    opacity: 1;
+  }
+  header nav ul {
+    display: flex;
+  }
+  header nav ul li a {
+    padding: 10px 15px;
+  }
+  header nav ul li a:hover {
+    background-color: transparent;
+    color: #2594b0;
+  }
+  header .toggle-btn {
+    display: none;
+  }
+  main .future .future-inner {
+    padding-left: 30px;
+  }
+  footer .contact .contact-no h2 {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=media.css.map */

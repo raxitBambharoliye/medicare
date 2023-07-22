@@ -1,0 +1,53 @@
+@media (min-width:576px) {
+    
+}
+@media (min-width:768px) {
+    
+}
+@media (min-width:992px) {
+    header{
+        nav{
+            position: static;
+            box-shadow: none;
+            height: auto;
+            opacity: 1;
+            ul{
+                display: flex;
+                li{
+                    a{
+                        padding: 10px 15px;
+                        &:hover{
+                            background-color:transparent;
+                            color:#2594b0;
+                        }
+                    }
+                }
+            }
+        }
+    .toggle-btn{
+        display: none;  
+    }
+    }
+    main{
+        .future{
+            .future-inner{
+                padding-left: 30px;
+            }
+        }
+    }
+    footer{
+        .contact{
+            .contact-no{
+                h2{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1200px) {
+    
+}
+@media (min-width:1400px) {
+    
+}
